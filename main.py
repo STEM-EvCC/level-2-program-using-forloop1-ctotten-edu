@@ -23,7 +23,7 @@ successrate = (missionsuccess / missiontotal) * 100
 # Begin outputting results 
 print("\nTotal number of missions is ", missiontotal)
 print("Total successful missions is ", missionsuccess)
-print("The success rate is {:.2f}%".format(successrate))
+print(f"The success rate is {successrate:.2f}%")
 # Printing only 2 decimal places for the calculation
 print("Missions launched before the year 2000:")
 for mission in missionspre2000:
